@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dihydrogen Monoxide Application Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dihydrogen Monoxide Application</h1>
+        <p class="subtitle">Join our team! Fill out the form below to apply</p>
+
+        
+        <div id="message" class="message"></div>
+        
+        <form id="applicationForm">
+            <div class="form-group">
+                <label for="applicant">Full Name <span class="required">*</span></label>
+                <input type="text" id="applicant" name="applicant" required placeholder="John Doe">
+            </div>
+            
+            <div class="form-group">
+                <label for="role">Role <span class="required">*</span></label>
+                <select id="role" name="role" required>
+                    <option value="">Select a role...</option>
+                    <option value="Software Engineer">Software Engineer</option>
+                    <option value="Product Manager">Product Manager</option>
+                    <option value="Designer">Designer</option>
+                    <option value="Data Analyst">Data Analyst</option>
+                    <option value="Marketing Specialist">Marketing Specialist</option>
+                    <option value="Sales Representative">Sales Representative</option>
+                    <option value="Customer Support">Customer Support</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address <span class="required">*</span></label>
+                <input type="email" id="email" name="email" required placeholder="john@example.com">
+            </div>
+            
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number <span class="required">*</span></label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="+1 (555) 123-4567">
+            </div>
+            
+            <div class="form-group">
+                <label for="reason">Why are you applying? <span class="required">*</span></label>
+                <textarea id="reason" name="reason" required placeholder="Tell us why you'd be a great fit for this role..."></textarea>
+            </div>
+            
+            <button type="submit" id="submitBtn">Submit Application</button>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
