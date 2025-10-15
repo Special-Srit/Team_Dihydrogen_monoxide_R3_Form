@@ -22,6 +22,7 @@ const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwV_2L5nEDzJ2egFB82L
             
             const formData = {
                 applicant: document.getElementById('applicant').value,
+                team: document.getElementById('team').value,
                 role: document.getElementById('role').value,
                 email: document.getElementById('email').value,
                 phoneNumber: document.getElementById('phoneNumber').value,
